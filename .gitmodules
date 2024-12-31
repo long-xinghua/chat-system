@@ -1,0 +1,9 @@
+[submodule "myChat"]
+	path = myChat
+	url = https://github.com/long-xinghua/myChat.git
+[submodule "GateServer"]
+	path = GateServer
+	url = https://github.com/long-xinghua/GateServer.git
+[submodule "ChatServers"]
+	path = ChatServers
+	url = https://github.com/long-xinghua/ChatServer.git
