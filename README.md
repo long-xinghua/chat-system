@@ -1,7 +1,7 @@
 # chat-system
 
 ## 介绍  
-C++聊天项目，包括grpc、并发线程、网络编程、数据库、Qt开发等多种技术的综合使用。  
+C++聊天项目，涵盖grpc、并发线程、网络编程、数据库、Qt开发等多种技术的综合使用。  
 
 ## 架构设计
 ![项目架构如图所示](/assets/images/项目架构.png)
@@ -24,4 +24,7 @@ Qt客户端，实现了注册、登录、重置密码、添加好友、查找用
 分布式聊天服务器，为了承载更多客户端数量使用分布式设计，当用户请求为登录时使用tcp连接负载最小的服务器，并完成客户端之间的查找用户、添加好友和聊天等功能。  
 
 ## 使用到的C++库  
-boost、jsoncpp、grpc、mysql-connector、hiredis。
+boost、jsoncpp、grpc、mysql-connector、hiredis。  
+
+## 感谢B站up主恋恋风辰zack提供的开源项目  
+[文档链接](https://gitbookcpp.llfc.club/sections/cpp/project/day01.html)
